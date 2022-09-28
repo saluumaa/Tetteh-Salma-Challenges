@@ -1,0 +1,38 @@
+/* #image, #testimg {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    object-position: center;
+    /* inline-size: auto;
+    text-align: center;
+      
+    all of these properties did not work
+} */
+
+#image {
+    display: block;
+      
+    max-width: 100%;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+}
+
+h1, div{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: azure;
+    margin: 25% 60%;
+}
+@media (min-width:600px) {
+    body{
+        background-color: azure;
+        margin: 5% 30%;
+    }
+    
+
+}
